@@ -1,0 +1,61 @@
+<questions>
+  <question seconds="10" points="2">
+    <text>How many football players should each team have on the field at the start of each match?</text>
+    <variants>
+      <variant>10</variant>
+      <variant>20</variant>
+      <variant right="true">11</variant>
+      <variant>12</variant>
+    </variants>
+  </question>
+
+  <question seconds="13" points="3">
+    <text>What year was the very first model of the iPhone released?</text>
+    <variants>
+      <variant>2008</variant>
+      <variant>2006</variant>
+      <variant right="true">2007</variant>
+      <variant>2009</variant>
+    </variants>
+  </question>
+
+  <question seconds="15" points="4">
+    <text>How many eyes does a bee have?</text>
+    <variants>
+      <variant>2</variant>
+      <variant>3</variant>
+      <variant right="true">5</variant>
+      <variant>20</variant>
+    </variants>
+  </question>
+
+  <question seconds="20" points="5">
+    <text>How many hearts does an octopus have?</text>
+    <variants>
+      <variant>1</variant>
+      <variant>2</variant>
+      <variant right="true">3</variant>
+      <variant>4</variant>
+    </variants>
+  </question>
+
+  <question seconds="20" points="5">
+    <text>Which country did AC/DC originate in?</text>
+    <variants>
+      <variant>USA</variant>
+      <variant>UK</variant>
+      <variant right="true">Australia</variant>
+      <variant>Canada</variant>
+    </variants>
+  </question>
+
+  <question seconds="15" points="4">
+    <text>What is your body’s largest organ?</text>
+    <variants>
+      <variant>Head</variant>
+      <variant>Leg</variant>
+      <variant right="true">Skin</variant>
+      <variant>Liver</variant>
+    </variants>
+  </question>
+</questions>
