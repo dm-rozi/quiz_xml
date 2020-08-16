@@ -1,6 +1,6 @@
 #main.rb v.3.0 OOP with threads
 
-require_relative 'lib/question'
+require_relative 'lib/question_collection'
 
 xml_path = File.join(__dir__, "data", "qa.xml")
 # xml_path = file_path + "/qa.xml"
@@ -16,10 +16,10 @@ right_answers_count = 0
 puts "Welcome, User. You should answer for 6 questions."
 puts
 
-questions = Question.read_from_xml(xml_path)
-questions.shuffle.each.with_index(1) do |question, i|
+questions = QuestionCollection.read_from_xml(xml_path).shuffle
+questions.each.with_index(1) do |question, i|
   puts "You will get #{question.points} points."
-  puts question.show_question
+  puts question
   puts question.show_variants
   puts
   puts "Hurry up! You have only #{question.time_for_answer} seconds to answer the question."
@@ -49,5 +49,5 @@ questions.shuffle.each.with_index(1) do |question, i|
   puts
   sleep 1
 end
-
-puts "Number of the right answers is #{right_answers_count}.\nCongratulations!! You`ve got #{quiz_points_sum} points."
+puts "Congratulations!!"
+puts "Number of the right answers is #{right_answers_count}.\nYou`ve got #{quiz_points_sum} points."
