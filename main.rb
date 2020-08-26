@@ -24,7 +24,7 @@ game.questions.each_with_index do |question, index|
   user_input.join
   unless user_input[:value]
     puts "\n\nTime is over. Buy-buy..."
-    puts game.show_result
+    puts game.result
     exit
   end
 
@@ -38,4 +38,4 @@ game.questions.each_with_index do |question, index|
   puts
 end
 puts "Congratulations!!"
-puts game.show_result
+puts game.result

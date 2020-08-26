@@ -44,7 +44,7 @@ class Quiz
     @quiz_points_sum += @questions[question_index].points
   end
 
-  def show_result
+  def result
     "Number of the right answers is #{@right_answers_count}.\nYou`ve got #{@quiz_points_sum} points."
   end
 end
